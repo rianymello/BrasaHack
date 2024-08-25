@@ -70,6 +70,7 @@ export const Home = () => {
         </div>
         <div className="absolute w-[164px] h-[146px] top-[906px] left-[846px]">
           <div className="relative w-[162px] h-[146px] bg-white rounded-[10px] shadow-[4px_4px_4px_#00000040]">
+            <a href=""></a>
             <img
               className="absolute w-[55px] h-[55px] top-[38px] left-[54px]"
               alt="Bx box"
