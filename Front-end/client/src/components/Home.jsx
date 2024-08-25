@@ -1,4 +1,5 @@
 import React from "react";
+import Ellipse from "../../public/ellipse-1.svg";
 
 export const Home = () => {
   return (
@@ -7,12 +8,12 @@ export const Home = () => {
         <img
           className="absolute w-[228px] h-[455px] top-[359px] left-[815px]"
           alt="Ellipse"
-          src="ellipse-1.svg"
+          src="/ellipse-1.svg"
         />
         <img
           className="absolute w-[204px] h-[455px] top-[762px] left-[1041px]"
           alt="Ellipse"
-          src="ellipse-2.svg"
+          src="/ellipse-2.svg"
         />
         <div className="absolute w-[1037px] h-[1148px] top-[102px] left-[116px] bg-[#bababa1a] rounded-[49px] rotate-[13.03deg] blur-sm" />
         <div className="absolute w-[148px] h-[45px] top-[860px] left-[843px] [font-family:'Kanit-SemiBold',Helvetica] font-semibold text-[#26d0b6] text-3xl text-center tracking-[0] leading-[normal]">
@@ -47,22 +48,22 @@ export const Home = () => {
         <img
           className="h-[41px] top-[705px] absolute w-[41px] left-[912px]"
           alt="Menu"
-          src="menu.png"
+          src="menu.svg"
         />
         <img
           className="absolute w-[55px] h-[55px] top-[944px] left-[1108px]"
-          alt="Material symbols"
-          src="material-symbols-light-cancel-outline.png"
+          alt="Cancelamento"
+          src="icone-3.svg"
         />
         <img
           className="absolute w-[50px] h-[50px] top-[1111px] left-[902px]"
-          alt="Ph pix logo fill"
-          src="ph-pix-logo-fill.png"
+          alt="Pix"
+          src="icone-5.svg"
         />
         <img
           className="absolute w-[50px] h-[50px] top-[1111px] left-[1113px]"
           alt="Ph newspaper"
-          src="ph-newspaper-clipping-light.png"
+          src="icone-4.svg"
         />
         <div className="absolute w-[88px] h-[22px] top-[1160px] left-[1092px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-[15px] text-center tracking-[0] leading-[normal]">
           Reimpressão
@@ -72,7 +73,7 @@ export const Home = () => {
             <img
               className="absolute w-[55px] h-[55px] top-[38px] left-[54px]"
               alt="Bx box"
-              src="bx-box.png"
+              src="bx_box.svg"
             />
             <div className="absolute w-14 h-[22px] top-[86px] left-[53px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-[15px] text-center tracking-[0] leading-[normal]">
               Estoque
@@ -81,8 +82,8 @@ export const Home = () => {
         </div>
         <img
           className="absolute w-[61px] h-[53px] top-[693px] left-[1100px]"
-          alt="Group"
-          src="group-1000002322.png"
+          alt="Pagamento"
+          src="celulares.svg"
         />
       </div>
     </div>
