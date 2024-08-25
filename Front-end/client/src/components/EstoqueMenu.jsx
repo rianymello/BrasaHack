@@ -1,6 +1,6 @@
 import React from "react";
 
-export const EstoqueHome = () => {
+export const EstoqueMenu = () => {
   return (
     <div className="w-[430px] h-[932px] bg-[#f8f8f8] overflow-hidden">
       <div className="relative w-[1269px] h-[1352px] top-[-312px] left-[-815px]">

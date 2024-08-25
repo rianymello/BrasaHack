@@ -31,13 +31,8 @@ export const EstoqueUpload = () => {
             alt="arrow"
             src="arrow-left.svg"
           />
-        </a>
-        <img
-          className="absolute w-[367px] h-[181px] top-[708px] left-[847px]"
-          alt="Upload arquivo"
-          src=".svg"
-        />
-        <form action="https://hacka-stone-tesseract-ocr.onrender.com/read" method="post" enctype="multipart/form-data">
+        </a>        
+        <form className="relative max-w-max flex items-center justify-center flex-col h-[500px] top-[650px] left-[847px]" action="https://hacka-stone-tesseract-ocr.onrender.com/read" method="post" encType="multipart/form-data">
           <input type="file" name="nota_fiscal" />
           <button>Enviar</button>
         </form>
