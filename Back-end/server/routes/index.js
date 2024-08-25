@@ -1,10 +1,10 @@
-const express = require('express');
-const router = express.Router();
+var express = require('express');
+var router = express.Router();
 const ocrController = require('../controllers/ocr-controller')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({msg: "This is index. Hi!"})
+  res.render('index', { title: 'Express' });
 });
 
 router.post('/read', ocrController.read)
