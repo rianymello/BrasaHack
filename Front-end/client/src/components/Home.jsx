@@ -1,5 +1,4 @@
 import React from "react";
-import Ellipse from "../../public/ellipse-1.svg";
 
 export const Home = () => {
   return (
@@ -68,19 +67,21 @@ export const Home = () => {
         <div className="absolute w-[88px] h-[22px] top-[1160px] left-[1092px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-[15px] text-center tracking-[0] leading-[normal]">
           Reimpressão
         </div>
-        <div className="absolute w-[164px] h-[146px] top-[906px] left-[846px]">
-          <div className="relative w-[162px] h-[146px] bg-white rounded-[10px] shadow-[4px_4px_4px_#00000040]">
-            <a href=""></a>
-            <img
-              className="absolute w-[55px] h-[55px] top-[38px] left-[54px]"
-              alt="Bx box"
-              src="bx_box.svg"
-            />
-            <div className="absolute w-14 h-[22px] top-[86px] left-[53px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-[15px] text-center tracking-[0] leading-[normal]">
-              Estoque
+        <a href="/options">
+            <div className="absolute w-[164px] h-[146px] top-[906px] left-[846px]">
+              <div className="relative w-[162px] h-[146px] bg-white rounded-[10px] shadow-[4px_4px_4px_#00000040]">
+                <a href=""></a>
+                <img
+                  className="absolute w-[55px] h-[55px] top-[38px] left-[54px]"
+                  alt="Bx box"
+                  src="bx_box.svg"
+                />
+                <div className="absolute w-14 h-[22px] top-[86px] left-[53px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-[15px] text-center tracking-[0] leading-[normal]">
+                  Estoque
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+        </a>
         <img
           className="absolute w-[61px] h-[53px] top-[693px] left-[1100px]"
           alt="Pagamento"
