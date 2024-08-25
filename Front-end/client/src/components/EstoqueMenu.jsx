@@ -22,7 +22,7 @@ export const EstoqueMenu = () => {
           O controle do seu negócio a um clique de você
         </p>
         
-        <a href="/upload">
+        <a href="https://hacka-stone-tesseract-ocr.onrender.com/">
             <div className="absolute w-[246px] h-[202px] top-[590px] left-[904px] bg-white rounded-[10px] shadow-[4px_4px_4px_#00000040]" />
             <div className="absolute w-[86px] h-6 top-[619px] left-[931px] [font-family:'Inter-Bold',Helvetica] font-bold text-[#777777] text-xl text-center tracking-[0] leading-[normal]">
               Upload
