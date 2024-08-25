@@ -2,7 +2,7 @@ import React from "react";
 
 export const EstoqueHome = ({ className }) => {
     return (
-        <div className={relative w-[430px] h-[2129px] bg-[#f8f8f8] overflow-hidden overflow-y-scroll ${className}}>
+        <div className={`relative w-[430px] h-[2129px] bg-[#f8f8f8] overflow-hidden overflow-y-scroll ${className}`}>
             <div className="absolute w-[1269px] h-[1397px] top-[-312px] left-[-815px]">
                 <img className="absolute w-[228px] h-[455px] top-[359px] left-[815px]" alt="Ellipse" src="ellipse-1.svg" />
                 <img className="absolute w-[204px] h-[455px] top-[762px] left-[1041px]" alt="Ellipse" src="ellipse-2.svg" />
