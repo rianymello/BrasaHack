@@ -34,16 +34,10 @@ export const EstoqueUpload = () => {
         </a>        
         <form className="relative max-w-max flex items-center justify-center flex-col h-[500px] top-[650px] left-[847px]" action="https://hacka-stone-tesseract-ocr.onrender.com/read" method="post" encType="multipart/form-data">
           <input type="file" name="nota_fiscal" />
-          <button>Enviar</button>
+          <button className="bg-[#525256] px-8 py-4 rounded-md font-semibold text-white text-3xl mt-5">Enviar</button>
         </form>
 
-        <div className="absolute w-[312px] h-16 top-[957px] left-[875px]">
-          <div className="relative w-[310px] h-16 bg-[#525256] rounded-[15px]">
-            <div className="absolute w-20 top-5 left-[106px] font-semibold-16-24 font-[number:var(--semibold-16-24-font-weight)] text-white text-[length:var(--semibold-16-24-font-size)] tracking-[var(--semibold-16-24-letter-spacing)] leading-[var(--semibold-16-24-line-height)] [font-style:var(--semibold-16-24-font-style)]">
-              Confirmar
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
