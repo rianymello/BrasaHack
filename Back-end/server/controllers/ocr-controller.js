@@ -20,7 +20,7 @@ exports.read = [
       );
       console.table(text);
       await worker.terminate();
-      res.render('success', {text})
+      res.json(text)
     })();
   }),
 ];
