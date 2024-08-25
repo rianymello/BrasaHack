@@ -7,12 +7,12 @@ export const EstoqueHome = () => {
         <img
           className="absolute w-[228px] h-[455px] top-[359px] left-[815px]"
           alt="Ellipse"
-          src="ellipse-1.svg"
+          src="/ellipse-1.svg"
         />
         <img
           className="absolute w-[204px] h-[455px] top-[762px] left-[1041px]"
           alt="Ellipse"
-          src="ellipse-2.svg"
+          src="/ellipse-2.svg"
         />
         <div className="absolute w-[1037px] h-[1148px] top-[102px] left-[116px] bg-[#bababa1a] rounded-[49px] rotate-[13.03deg] blur-sm" />
         <div className="absolute w-[174px] h-[68px] top-[357px] left-[940px] [font-family:'Inter-Bold',Helvetica] font-bold text-[#26d0b6] text-[28px] text-center tracking-[0] leading-[normal]">
@@ -34,7 +34,7 @@ export const EstoqueHome = () => {
               <img
                 className="absolute w-[90px] h-[90px] top-0 left-0"
                 alt="Bx box"
-                src="bx-box.svg"
+                src="/bx-box.svg"
               />
               <p className="absolute w-[106px] h-[84px] top-1.5 left-[87px] [font-family:'Kanit-Medium',Helvetica] font-medium text-[#777777] text-sm text-center tracking-[0] leading-[normal]">
                 Acesse seu estoque online e veja todas as informações
