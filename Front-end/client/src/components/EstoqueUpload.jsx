@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const EstoqueUpload = () => {
+  const [file, setFile] = useState()
+
+  const handleFileUpload = (e) => {
+    setFile(e.target.files[0])
+    console.log(e.target.files[0])
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const formData = new FormData();
+    formData.append('nota_fiscal', file);
+    // https://hacka-stone-tesseract-ocr.onrender.com/read
+    const response = await fetch('http://localhost:3000/read', {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: {
+        nota_fiscal: formData
+      }
+    })
+    const data = await response.json()
+    console.log(data)
+    return data
+  }
+  
   return (
     <div className="w-[430px] h-[932px] bg-[#f8f8f8] overflow-hidden">
       <div className="relative w-[1269px] h-[1352px] top-[-312px] left-[-815px]">
@@ -32,8 +58,8 @@ export const EstoqueUpload = () => {
             src="arrow-left.svg"
           />
         </a>        
-        <form className="relative max-w-max flex items-center justify-center flex-col h-[500px] top-[650px] left-[847px]" action="https://hacka-stone-tesseract-ocr.onrender.com/read" method="post" encType="multipart/form-data">
-          <input type="file" name="nota_fiscal" />
+        <form onSubmit={handleSubmit} className="relative max-w-max flex items-center justify-center flex-col h-[500px] top-[650px] left-[847px]" action="https://hacka-stone-tesseract-ocr.onrender.com/read" method="post" encType="multipart/form-data">
+          <input onChange={handleFileUpload} type="file" name="nota_fiscal" />
           <button className="bg-[#525256] px-8 py-4 rounded-md font-semibold text-white text-3xl mt-5">Enviar</button>
         </form>
 

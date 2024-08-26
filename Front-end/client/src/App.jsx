@@ -11,6 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" Component={Home}/>
           <Route path="/home" Component={Home}/>
           <Route path="/options" Component={EstoqueMenu}/>
           <Route path="/upload" Component={EstoqueUpload}/>

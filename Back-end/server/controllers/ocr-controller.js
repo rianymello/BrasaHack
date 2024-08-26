@@ -7,20 +7,18 @@ exports.read = [
   upload.single("nota_fiscal"),
 
   asyncHandler(async (req, res, next) => {
-    console.log(req.file)
+    console.log(req.file);
     const { createWorker } = require("tesseract.js");
 
     const worker = await createWorker("eng");
 
     (async () => {
       const {
-        data: { text }
-      } = await worker.recognize(
-        './uploads/' + req.file.filename
-      );
+        data: { text },
+      } = await worker.recognize("./uploads/" + req.file.filename);
       console.table(text);
       await worker.terminate();
-      res.render('success', {text})
+      res.render("success", { text });
     })();
   }),
 ];
