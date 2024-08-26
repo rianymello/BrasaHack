@@ -52,7 +52,7 @@ export const Home = () => {
         <img
           className="absolute w-[55px] h-[55px] top-[944px] left-[1108px]"
           alt="Cancelamento"
-          src="icone-3.svg"
+          src="cancelamento.svg"
         />
         <img
           className="absolute w-[50px] h-[50px] top-[1111px] left-[902px]"
