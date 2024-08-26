@@ -77,9 +77,7 @@ Para garantir que a aplicação seja visualizada corretamente em dispositivos m�
 
 ## Desenvolvedores
 
-Riany Mello
-Giovanna Vitória
-Henrique Heron
-
-
+- **Giovanna Vitória**
+- **Henrique Heron** 
+- **Riany Mello** 
 
